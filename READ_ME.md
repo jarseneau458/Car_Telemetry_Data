@@ -5,7 +5,7 @@ An adriuno project designed to read and display live Engine RPM from a vehicle's
 * **Microcontroller:** Arduino Uno 
 * **CAN Interface:** Seeed Studio CAN-BUS Shield V2 (MCP2515 Transceiver)
 * **Display:** 16x2 LCD Screen
-* **Power:** 5V Portable USB Power Bank 
+* **Power:** 5V battery or USB Power Bank 
 
 ## Wiring 
 ### CAN-Bus Shield (used to get the data from the ECU)
