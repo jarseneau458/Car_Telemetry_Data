@@ -29,9 +29,9 @@ An adriuno project designed to read and display live Engine RPM from a vehicle's
 
 ## How it works
 Setup:
-        *Initializes the 16x2 LCD screen. 
-        *Attempts to connect with the CAN shield.
-        *If it successfully connects to the MCP2515 chip, it switches the shield into "Normal Mode" so it can actively transmit data, clears the screen, and prints the "Rpm:" label.
+        * Initializes the 16x2 LCD screen. 
+        * Attempts to connect with the CAN shield.
+        * If it successfully connects to the MCP2515 chip, it switches the shield into "Normal Mode" so it can actively transmit data, clears the screen, and prints the "Rpm:" label.
 
 Loop: 
 * Sends OBD-II requests (Service `01`, PID `0x0C`) to address `0x7DF` to fetch live engine RPM.
