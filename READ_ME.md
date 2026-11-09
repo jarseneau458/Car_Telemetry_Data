@@ -35,4 +35,4 @@ Setup:
 
 Loop: 
 * Sends OBD-II requests (Service `01`, PID `0x0C`) to address `0x7DF` to fetch live engine RPM.
-* Gets the 16-bit response from the ECU (Address `0x7E8`) and converts those bits using the  formula: `((A * 256) + B) / 4` to display human readable rpms
+* Calls handleRPM function which gets the 16-bit response from the ECU (Address `0x7E8`) and converts those bits using the  formula: `((A * 256) + B) / 4` to display human readable rpms
