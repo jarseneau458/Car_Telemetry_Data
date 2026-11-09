@@ -1,8 +1,6 @@
 #include <SPI.h>
 #include <mcp_can.h>
 #include <LiquidCrystal.h>
-#include <Adafruit_NeoPixel.h>
-
 
 // Set SPI CS Pin to Pin 9
 const int SPI_CS_PIN = 9;
